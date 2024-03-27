@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>이름 입력받기</title>
+</head>
+<body>
+	<label for="name">이름:</label>
+	<input type="text" id="name" name="name">
+
+	<label for="ClassOf">학번:</label>
+	<input type="text" id="ClassOf" name="ClassOf">
+
+	<button id="select-btn">동영상 선택</button>
+	<button id="play-btn">재생</button>
+	<button id="pause-btn">일시정지</button>
+	<button id="stop-btn">정지</button>
+	<video id="video-player"></video>
+
+	<button id="select-btn">오디오 선택</button>
+	<button id="play-btn">재생</button>
+	<button id="pause-btn">일시정지</button>
+	<button id="stop-btn">정지</button>
+	<audio id="audio-player"></audio>
+	
+	<script>
+		var nameInput = document.getElementById("name");
+		var name = prompt("이름을 입력하세요.");
+		nameInput.value = name;
+
+		var nameInput = document.getElementById("ClassOf");
+		var name = prompt("학번을 입력하세요.");
+		nameInput.value = name;
+
+		var selectBtn = document.getElementById("select-btn");
+		var playBtn = document.getElementById("play-btn");
+		var pauseBtn = document.getElementById("pause-btn");
+		var stopBtn = document.getElementById("stop-btn");
+		var videoPlayer = document.getElementById("video-player");
+		
+		selectBtn.addEventListener("click", function() {
+			var fileInput = document.createElement("input");
+			fileInput.type = "file";
+			fileInput.accept = "video/*";
+			fileInput.addEventListener("change", function() {
+				var file = fileInput.files[0];
+				var url = URL.createObjectURL(file);
+				videoPlayer.src = url;
+			});
+			fileInput.click();
+		});
+		
+		playBtn.addEventListener("click", function() {
+			videoPlayer.play();
+		});
+		
+		pauseBtn.addEventListener("click", function() {
+			videoPlayer.pause();
+		});
+		
+		stopBtn.addEventListener("click", function() {
+			videoPlayer.currentTime = 0;
+			videoPlayer.pause();
+		});
+
+
+
+		var selectBtn = document.getElementById("select-btn");
+		var playBtn = document.getElementById("play-btn");
+		var pauseBtn = document.getElementById("pause-btn");
+		var stopBtn = document.getElementById("stop-btn");
+		var audioPlayer = document.getElementById("audio-player");
+		
+		selectBtn.addEventListener("click", function() {
+			var fileInput = document.createElement("input");
+			fileInput.type = "file";
+			fileInput.accept = "audio/*";
+			fileInput.addEventListener("change", function() {
+				var file = fileInput.files[0];
+				var url = URL.createObjectURL(file);
+				audioPlayer.src = url;
+			});
+			fileInput.click();
+		});
+		
+		playBtn.addEventListener("click", function() {
+			audioPlayer.play();
+		});
+		
+		pauseBtn.addEventListener("click", function() {
+			audioPlayer.pause();
+		});
+		
+		stopBtn.addEventListener("click", function() {
+			audioPlayer.currentTime = 0;
+			audioPlayer.pause();
+		});
+	</script>
+</body>
+</html>

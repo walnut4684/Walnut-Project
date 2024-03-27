@@ -1,0 +1,233 @@
+h4{
+    color: aqua;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+
+}
+
+#jb로고{
+    float: left;
+    margin-left: 200px;
+}
+
+.search{
+    min-width: 190px;    
+    border-radius: 3px;
+    border: 1px solid rgba(59, 117, 184);
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 1 1 0%;
+    height: 35px;
+    width: 500px;
+    display: flex;
+    margin: 1 auto;
+    padding: 0px 10px;
+
+}
+
+.searchkeyword{
+    width:100%;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+    color: rgba(85, 85, 85,);
+    padding: 3px
+}
+
+.ask{
+    background-color: beige;
+    color: black;
+    width: 30px;
+    height: 50px;
+}
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+.navbar {
+    /* display: inline-block; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    background-color: beige;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    background-color: beige;
+
+}
+
+.navbar > ul {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.navbar ul > li > a{
+    display:block;
+    padding: 10px;
+}
+.navbar > ul > li {
+    display: inline-block;
+    padding:20px;
+}
+
+.navbar > ul ul {
+    display: none;
+    position: absolute;
+}
+
+.navbar ul > li:hover > ul {
+    display: block;
+}
+  
+
+.blank01{
+    padding-top: 30px;
+}
+
+#맛과_멋{
+    display: block;
+    margin: 10px auto;
+    size: 200%;
+}
+* {margin: 0; padding: 0; box-sizing: border-box;}
+ul, li {list-style: none;}
+[name ="slide"] {display: none;}
+.slidebox {max-width: 1000px; width: 100%; margin: 0 auto;}
+.slidebox img {max-width: 100%;}
+.slidebox .slidelist {
+    white-space:nowrap;
+    font-size: 0;
+    overflow:hidden;
+}
+.slidebox .slideitem {
+    position:relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    transition: all .35s;
+}
+.slidebox .slideitem label {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+[id="slide01"]:checked ~ .slidelist .slideitem {transform: translateX(0);animation: slide01 20s infinite;}
+[id="slide02"]:checked ~ .slidelist .slideitem {transform: translateX(-100);animation: slide02 20s infinite;}
+[id="slide03"]:checked ~ .slidelist .slideitem {transform: translateX(-200);animation: slide03 20s infinite;}
+[id="slide04"]:checked ~ .slidelist .slideitem {transform: translateX(-300);animation: slide04 20s infinite;}
+
+@keyframes slide01 {
+    0% {left:0%;}
+    23% {left:0%;}
+    25% {left:-100%;}
+    48% {left:-100%;}
+    50% {left:-200%;}
+    73% {left:-200%;}
+    75% {left:-300%;}
+    98% {left:-300%;}
+    100% {left:0%;}
+}
+
+@keyframes slide02 {
+    0% {left:0%;}
+    23% {left:0%;}
+    25% {left:-100%;}
+    48% {left:-100%;}
+    50% {left:-200%;}
+    73% {left:-200%;}
+    75% {left:100%;}
+    98% {left:100%;}
+    100% {left:0%;}
+}
+
+@keyframes slide03 {
+    0% {left:0%;}
+    23% {left:0%;}
+    25% {left:-100%;}
+    48% {left:-100%;}
+    50% {left:200%;}
+    73% {left:200%;}
+    75% {left:100%;}
+    98% {left:100%;}
+    100% {left:0%;}
+}
+
+@keyframes slide04 {
+    0% {left:0%;}
+    23% {left:0%;}
+    25% {left:300%;}
+    48% {left:300%;}
+    50% {left:200%;}
+    73% {left:200%;}
+    75% {left:100%;}
+    98% {left:100%;}
+    100% {left:0%;}
+}
+
+.footer-low {
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.footer-low .logo-low{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1 1 0%;
+}
+
+.footer-about-low {
+    position: absolute;
+    left: 0;
+    float: left;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    color: rgb(19, 19, 19);
+    font-weight: bold;
+}
+
+.footer-low-contents {
+    position: absolute;
+    left: 0;
+    float: left;
+    margin-right: 50%;
+    padding: 10px 0px 0px;
+    color: rgb(189, 189, 189);
+    font-size: 13px;
+    margin-bottom: 100px;
+}
+
+.footer-low .logo-low .footer-low-contents {
+    padding: 10px 0px 0px;
+    color: rgb(189, 189, 189);
+}

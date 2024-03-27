@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="notice.css ">
+    <title>전라북도 순환관광</title> 
+    <header>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <article class="top_bar">
+        <section class="top_bar_section">
+            <article class="topbar-account-container">
+                <div id="main_title">
+                    <img  id="jb로고" src="/image/Logo.png" alt="전라북도순환관광로고"/>
+                    </div>
+                    <div class="search-box">
+                        <form action="." method="post">
+                          <input class="search-txt" type="text" placeholder="검색어를 입력해 주세요">
+                          <button class="search-btn" type="submit"><i class="fas fa-search"></i>
+                          </button>
+                        </form>
+                      </div>
+                    
+                <section>
+                    <div class="Loginstyle">
+                        <button class="btn_login"><a href="#">로그인</a></button>
+                        <button class="btn"><a href="/Sign-up/Sign-up.html">회원가입</a></button>
+                        <button class="reserv-btn"><a href="#">예약내역</a></button>                                                 
+                    </div>
+                </section>
+
+            </article>
+        </section>
+        
+    </header>
+    </article>
+
+    <div class="blank01"></div>
+
+<!-- 
+    <nav class="navbar">
+        <div id="nav_menu">
+          <ul>
+            <li><a href="#tag1">도내운행코스</a></li>
+            <li><a href="#tag2">도내특별코스</a></li>
+            <li><a href="Gyeongsang.html">경상권 출발</a></li>
+            <li><a href="#tag4">수도권 출발</a></li>
+            <li><a href="#tag5">코레일 연계</a></li>
+            <li><a href="#tag6">커뮤니티</a></li>
+            <li><a href="#tag7">홍보영상</a></li>
+          </ul>
+        </div>
+      </nav>
+      -->
+
+      <nav class ="navbar">
+        <ul class="navbar__menu">
+            <li>
+                <a href="#tag1">도내운행코스</a>
+                <ul>
+                    <li><a href="#">전체 </a></li>
+                    <li><a href="#">고창/부안 </a></li>
+                    <li><a href="#">무주/진안 </a></li>
+                    <li><a href="#">임실/진안 </a></li>
+                    <li><a href="#">장수/남원 </a></li>
+                    <li><a href="#">익산/완주 </a></li>
+                    <li><a href="#">정읍/김제 </a></li>
+                    <li><a href="#">임실/순창 </a></li>
+                    <li><a href="#">전주/군산 </a></li>
+                    <li><a href="#">전북투어패스 </a></li>
+                    <li><a href="#">새만금코스 </a></li>
+                </ul>
+            </li>
+            <li><a href="#tag2">도내특별코스</a>
+                <ul>
+                    <li><a href="#">전체 </a></li>
+                    <li><a href="#">아테마스터스 </a></li>
+                    <li><a href="#">MZ코스 </a></li>
+                    <li><a href="#">겨울코스 </a></li>
+                    <li><a href="#">실버코스 </a></li>
+                    <li><a href="#">축제&생태 </a></li>
+                </ul>
+            </li>
+            <li><a href="Gyeongsang.html">경상권 출발</a>
+            <ul>
+                <li><a href="#">1박2일코스 </a></li>
+                <li><a href="#">당일코스 </a></li>
+                <li><a href="#">새만금코스 </a></li>
+            </ul>
+            </li>
+            <li><a href="#tag4">수도권 출발</a>
+            <ul>
+                <li><a href="#">전체 </a></li>
+                <li><a href="#">1박2일코스 </a></li>
+            </ul>
+            </li>
+            <li><a href="#tag5">코레일 연계</a>
+            <ul>
+                <li><a href="#">전체 </a></li>
+                <li><a href="#">당일코스 </a></li>
+                <li><a href="#">전북투어패스 </a></li>
+                <li><a href="#">새만금코스 </a></li>
+            </ul>
+            </li>
+            <li><a href="#tag6">커뮤니티</a>
+            <ul>
+                <li><a href="#">공지사항 </a></li>
+                <li><a href="#">자주 묻는 질문 </a></li>
+                <li><a href="#">여행후기 </a></li>
+            </ul>
+            </li>
+            <li><a href="#tag7">홍보영상</a>
+            <ul>
+                <li><a href="#">홍보영상 </a></li>
+            </ul>
+            </li>
+        </ul>
+      </nav>
+</head>
+
+
+<body>
+내용
+</body>
+
+
+
+<footer>
+    <div class="ft-area">
+        <div class="family-site">
+          <div class="select-box">
+            <label for="select" class="hide"></label>
+            <select name="select-name" onchange="location.href=this.value" id="select" class="falily-lnk" style="position: absolute; width: 197px; height: 33px; font-size: 11px;left: 0; top: 0; float: right;">
+              <option selected>FAMILY SITE</option>
+              <option value="#">선택</option>
+              <option value="https://www.iksan.go.kr/index.iksan?menuCd=DOM_000002017000000000">익산시</a></option>
+              <option value="https://www.wanju.go.kr/index.wanju">완주군</a></option>
+              <option value="https://www.sunchang.go.kr/index.sunchang">순창군</a></option>
+              <option value="https://www.buan.go.kr/index.buan">부안군</a></option>
+              <option value="https://www.muju.go.kr/intro.jsp">무주군</a></option>
+              <option value="https://www.gimje.go.kr/index.gimje?tab=01">김제시</a></option>
+              <option value="https://www.gunsan.go.kr/">군산시</a></option>
+              <option value="https://www.gochang.go.kr/index.gochang#">고창군</a></option>
+              <option value="https://www.namwon.go.kr/index.do?contentsSid=5876">남원시</a></option>
+              <option value="https://tour.jb.go.kr/index.do">전라북도토탈관광</a></option>
+              <option value="http://www.tourkorea.org/index.htm">전라북도관광협회</a></option>
+              <option value="https://www.jeonbuk.go.kr/index.jeonbuk">전라북도</a></option>
+              <option value="http://jbtourpass.kr/">전북투어패스</a></option>
+              <option value="https://www.iskytour.com/main">스카이항공</a></option>
+              <option value="https://www.nbtour.co.kr/">남북여행</a></option>
+              <option value="https://www.ktx7788.co.kr/">해밀여행사</a></option>
+              <option value="https://www.tour08.co.kr/">여행공방</a></option>
+              <option value="https://www.jinan.go.kr/index.jinan">진안군</a></option>
+            </select>
+            <button class="go-btn">GO</button>
+          </div>
+        </div>
+      </div>
+    
+    <section class="footer-low">
+        <div class="logo-low">
+            <img src="/image/logo2.png" alt="jbtour">
+            <div class="footer-low-contents">
+                <p>전라북도 전주시 덕진구 정언신로 95 경희프라자건물 7층</p>
+                <span>
+                    TEL.&nbsp;
+                    063-287-6292
+                </span>
+                <span>
+                    FAX.&nbsp;
+                    063-288-6294
+                </span>
+                <span>
+                    대표이사 :&nbsp;
+                    조오익
+                </span>
+                <br>
+                <span>
+                    사업자등록번호 :&nbsp;
+                    418-82-04300
+                </span>
+                <span>
+                    통신판매업신고번호 :&nbsp;
+                    제2017-전주덕진-0234호
+                </span>
+                <br>
+                <p>COPTRIGHT &nbsp;&nbsp; Jeollabuk-do Tourism Assiciation RIGHT RESERVED
+                </p>
+            </div>
+        </div>
+        <div class="footer-about-low">
+            <h4>전화문의</h4>
+            <h3>063-252-2988</h3>
+            평일 09:00 - 18:00 (토/일/공휴일 휴무)
+        </div>
+    </section>
+    
+</footer>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////css////////////////////////////////////////////
+
+
+
+h4{
+    color: aqua;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+
+}
+
+#jb로고{
+    float: left;
+    margin-left: 200px;
+}
+
+.search-txt {
+    background: none;
+    border: none;
+    outline: none;
+    width: 500px;
+    transition: 0.5s;
+}
+
+.search-btn {
+    color: #EDEDED;
+    float: right;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #c585eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.search-box {
+    min-width: 190px;    
+    border-radius: 3px;
+    border: 1px solid #c585eb;
+    margin-right:10px;
+    height: 35px;
+    width: 600px;
+    margin-top: 30px;
+    margin: 0 auto;
+    
+    padding: 4px 8px;
+  }
+
+.search-box:hover > form .search-txt {
+    width: 200px;
+}
+
+.search-box:hover > form .search-btn {
+    background: #949BA0;
+}
+
+
+.Loginstyle{
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    
+
+}
+.image-container{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.btn_login,.btn,.reserv-btn{
+    width: 100px;
+    height: 40px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right,#e738b3, #c585eb);
+    border-image-slice: 1;
+}
+
+
+
+.ask{
+    background-color: beige;
+    color: black;
+    width: 30px;
+    height: 50px;
+}
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+.navbar {
+    /* display: inline-block; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    position: relative;z-index:2;
+    background-color: #c585eb;
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 15px;
+    
+    
+}
+
+.navbar ul {
+    background-color: #c585eb;
+    
+    
+
+}
+
+.navbar > ul {
+    display: inline-block;
+    padding: 0px 10px;
+    
+    
+}
+
+.navbar ul > li > a{
+    display:block;
+    padding: 10px;
+    
+    
+}
+.navbar > ul > li {
+    display: inline-block;
+    padding:20px;
+    
+    
+}
+
+.navbar > ul ul {
+    display: none;
+    position: absolute;
+    border: 3px solid rgb(242,242,242);
+    background-color: #f7e5f1;
+    outline-color: #f8b6e2;
+}
+
+.navbar ul > li:hover > ul {
+    display: block;
+    
+}
+  
+
+.blank01{
+    padding-top: 30px;
+}
+
+#맛과_멋{
+    display: block;
+    margin: 10px auto;
+    size: 200%;
+}
+* {margin: 0; padding: 0; box-sizing: border-box;}
+ul, li {list-style: none;}
+
+
+
+
+.header {
+    display: inline-block;
+    flex-grow: 1;
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-Style {
+    width: 100%;
+    padding: 5% 15%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.box{
+    width: 80%;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.textContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;    
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    justify-content: center;    
+    
+}
+
+.title{
+    font-size: 1.6em;
+    font-weight: bold;
+    display: flex;
+    color: rgba(0, 0, 0);  
+    align-items: center;
+    -webkit-box-align: center;
+    margin-bottom: 5px;
+    
+}
+
+.sub{
+    font-size: 0.9em;    
+    display: flex;
+    color: rgba(0, 0, 0);  
+    align-items: center;
+    -webkit-box-align: center;    
+    
+}
+
+.buttonContainer {
+    width: 20%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+
+}
+
+.button {
+    background-color: #325cb2;
+    color: rgb(255, 255, 255);
+    padding: 20px 35px;
+    font-size: 0.95em;
+    border-radius: 10px;
+}
+
+
+.footer-low {
+    padding: 30px 10% !important;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #c585eb;
+    font-size: 15px;
+}
+
+.logo-low {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1 1 0%;
+    align-items: flex-start;
+
+}
+
+.img[jbtour] {
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer-low-contents {
+    padding: 10px 0px 0px;
+    color:#858080;
+}
+
+
+.footer > .ft-area {
+    padding:20px 0 0 950px;
+    width:100%;
+    overflow:hidden;
+    box-sizing:border-box;
+  }
+  
+  .footer > .ft-area::after {
+    content:"";
+    display:block;
+    clear:both;
+  }
+  
+  .footer > .ft-area > .family-site {
+    float:right;
+    width:33.3333%;
+  }
+  
+  .footer > .ft-area > .family-site > .select-box {
+    position:relative;
+    width:258px;
+    height:33px;
+  }
+  
+  .footer > .ft-area > .family-site > .select-box > .hide {
+    display:block;
+    position:absolute;
+  }
+  
+  .select-box {
+      position: relative;
+      width: 200px;
+      z-index: 1;
+      height: 40px;
+  }
+  
+  .select-box label {
+      position:absolute;
+      top:1px;
+      left:5px;
+      padding:0.8em 0.5em;
+      color:#999999;
+      z-index:-1;
+  }
+  
+  .select-box select {
+      width:100%;
+      height:auto;
+      line-height:normal;
+      border: 1px solid transparent;
+      margin:0;
+      padding:0;
+      color:#9999a8;
+      font-weight:bold;
+      cursor:pointer;
+      padding-left:15px;
+      background-color:#f6f6f6;
+  }
+  
+  .select-box select > option {
+      color:black;
+      background-color:white;
+  }
+  
+  .footer > .ft-area > .family-site > .select-box > .go-btn {
+    background-color:#888888;
+    color:white;
+    width:50px;
+    height:33px;
+    position:absolute;
+    top:0;
+    right:0;
+    border:0;
+    font-size:10px;
+    font-weight:500;
+    line-height:33px;
+  }
+  

@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, 그리고 Bootstrap 기여자들">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>여행후기</title>
+
+    <link rel="canonical" href="https://getbootstrap.kr/docs/5.2/examples/album/">
+
+    
+
+    
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9">
+<header>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="review.css">
+  <article class="top_bar">
+  <section class="top_bar_section">
+      <article class="topbar-account-container">
+          <div id="main_title">
+              <a href="index.html" target="_self"><img id="jb로고" src="/image/Logo.png" alt="전라북도순환관광로고"/></a>
+              </div>
+              <div class="search-box">
+                  <form action="." method="post">
+                    <input class="search-txt" type="text" placeholder="검색어를 입력해 주세요">
+                    <button class="search-btn" type="submit"><i class="fas fa-search"></i>
+                    </button>
+                  </form>
+              </div>
+                <section>
+                  <div class="Loginstyle">
+                      <button class="btn_login"><a href="login.html">로그인</a></button>
+                      <button class="btn"><a href="Sign-up.html">회원가입</a></button>
+                      <button class="reserv-btn"><a href="/Reservation/Res.html">예약내역</a></button>                                                 
+                  </div>
+                </section>
+              
+          
+
+      </article>
+  </section>
+</article>
+</header>
+
+
+<div class="blank01"></div>
+<nav class ="navbar">
+  <ul class="navbar__menu">
+      <li>
+          <a href="#tag1">도내운행코스</a>
+          <ul>
+              <li><a href="#">전체 </a></li>
+              <li><a href="#">고창/부안 </a></li>
+              <li><a href="#">무주/진안 </a></li>
+              <li><a href="#">임실/진안 </a></li>
+              <li><a href="#">장수/남원 </a></li>
+              <li><a href="#">익산/완주 </a></li>
+              <li><a href="#">정읍/김제 </a></li>
+              <li><a href="#">임실/순창 </a></li>
+              <li><a href="#">전주/군산 </a></li>
+              <li><a href="#">전북투어패스 </a></li>
+              <li><a href="#">새만금코스 </a></li>
+          </ul>
+      </li>
+      <li><a href="#tag2">도내특별코스</a>
+          <ul>
+              <li><a href="reservation.html">전체 </a></li>
+              <li><a href="#">아테마스터스 </a></li>
+              <li><a href="#">MZ코스 </a></li>
+              <li><a href="#">겨울코스 </a></li>
+              <li><a href="#">실버코스 </a></li>
+              <li><a href="#">축제&생태 </a></li>
+          </ul>
+      </li>
+      <li><a href="Gyeongsang.html">경상권 출발</a>
+      <ul>
+          <li><a href="#">1박2일코스 </a></li>
+          <li><a href="#">당일코스 </a></li>
+          <li><a href="#">새만금코스 </a></li>
+      </ul>
+      </li>
+      <li><a href="#tag4">수도권 출발</a>
+      <ul>
+          <li><a href="#">전체 </a></li>
+          <li><a href="#">1박2일코스 </a></li>
+      </ul>
+      </li>
+      <li><a href="#tag5">코레일 연계</a>
+      <ul>
+          <li><a href="#">전체 </a></li>
+          <li><a href="#">당일코스 </a></li>
+          <li><a href="#">전북투어패스 </a></li>
+          <li><a href="#">새만금코스 </a></li>
+      </ul>
+      </li>
+      <li><a href="#tag6">커뮤니티</a>
+      <ul>
+          <li><a href="/notice/notice.html">공지사항 </a></li>
+          <li><a href="que.html">자주 묻는 질문 </a></li>
+          <li><a href="/travel/review.html">여행후기 </a></li>
+      </ul>
+      </li>
+      <li><a href="/video/promotion video.html">홍보영상</a>
+      <ul>
+          <li><a href="/video/promotion video.html">홍보영상 </a></li>
+      </ul>
+      </li>
+  </ul>
+</nav>
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+
+
+<main>
+
+  <section class="py-5 text-left container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h3 class="fw-light">여행후기
+        
+        
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-2 row-cols-sm-4 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+
+            <a href="/travel/여행후기_3월 11일 무주,진안 여행.html"><img src="https://s3.ap-northeast-2.amazonaws.com/file.jbtour.info/review/review_1679643570741_%EB%AC%B4%EC%A3%BC.png" alt="이미지01" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"></a>
+            
+
+            <div class="card-body">
+              
+              <h7>3월 11일 무주/진안 여행</h7>
+        <ul class="desc">
+          <li>작성일 : 2023.03.24 조회수 : 28</li>
+        </ul>
+              <div class="d-flex justify-content-between align-items-center">
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://s3.ap-northeast-2.amazonaws.com/file.jbtour.info/review/review_review_1678152479074_KakaoTalk_20230306_100013763.jpg" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"onclick="location.href='file:///C:/Users/82102/Desktop/%EC%97%AC%ED%96%89%ED%9B%84%EA%B8%B0%EB%93%A4/%EC%97%AC%ED%96%89%ED%9B%84%EA%B8%B0_2023%EB%85%84%203%EC%9B%94%204%EC%9D%BC%20%EB%B6%80%EC%95%88%EA%B3%A0%EC%B0%BD%20%EC%97%AC%ED%96%89.html';"/>
+
+            <div class="card-body">
+              <h7>2023년 3월 4일 부안/고창 여행</h7>
+        <ul class="desc">
+          <li>작성일 : 2023.03.07 조회수 : 71
+    </li>
+        </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://s3.ap-northeast-2.amazonaws.com/file.jbtour.info/review/review_review_1677459485457_%EC%84%B8%EB%B3%91%ED%98%B84.jpg" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"onclick="location.href='file:///C:/Users/82102/Desktop/%EC%97%AC%ED%96%89%ED%9B%84%EA%B8%B0%EB%93%A4/%EC%97%AC%ED%96%89%ED%9B%84%EA%B8%B0_%202023.02.27.html';"/>
+
+            <div class="card-body">
+              <h7>작성일 : 2023.02.27 조회수 : 31</h7>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://s3.ap-northeast-2.amazonaws.com/file.jbtour.info/review/review_review_1677459437819_%EC%84%B8%EB%B3%91%ED%98%B83.jpg" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"onclick="location.href='file:///C:/Users/82102/Desktop/%EC%97%AC%ED%96%89%ED%9B%84%EA%B8%B0%EB%93%A4/%EC%97%AC%ED%96%89%ED%9B%84%EA%B8%B0_2%EC%9B%94%2027%EC%9D%BC%20%EC%97%AC%ED%96%89.html';"/>
+
+            <div class="card-body">
+              <h7>작성일 : 2023.02.27 조회수 : 21</h7>
+              <div class="d-flex justify-content-between align-items-center">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://s3.ap-northeast-2.amazonaws.com/file.jbtour.info/review/review_1674187874072_KakaoTalk_20220920_114643202_05.jpg" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/ onclick="location.href='file:///C:/Users/82102/Desktop/%EC%97%AC%ED%96%89%ED%9B%84%EA%B8%B0%EB%93%A4/%EC%97%AC%ED%96%89%ED%9B%84%EA%B8%B0_2022%EB%85%84%209%EC%9B%94%2015%EC%9D%BC%20%EC%A0%95%EC%9D%8D%EA%B3%A0%EC%B0%BD%20%EC%97%AC%ED%96%89.html';">
+
+            <div class="card-body">
+               <h7>2022년 9월 15일 정읍/고창 여행</h7>
+                <ul class="desc">
+                <li>작성일 : 2023.02.27 조회수 : 31
+              <div class="d-flex justify-content-between align-items-center">
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://s3.ap-northeast-2.amazonaws.com/file.jbtour.info/review/review_1671451911026_5-2.jpg"width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" onclick="location.href='file:///C:/Users/82102/Desktop/%EC%97%AC%ED%96%89%ED%9B%84%EA%B8%B0%EB%93%A4/%EC%97%AC%ED%96%89%ED%9B%84%EA%B8%B0_2022%EB%85%84%20%EB%A7%88%EC%A7%80%EB%A7%89%20%EC%97%AC%ED%96%89.html';" />
+
+            <div class="card-body">
+              <h7>2022년 마지막 여행</h7>
+        <ul class="desc">
+        <li>작성일 : 2022.12.19 조회수 : 81
+                            </li>
+              <div class="d-flex justify-content-between align-items-center">
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+      
+       
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <footer>
+    <div class="ft-area">
+        <div class="family-site">
+          <div class="select-box">
+            <label for="select" class="hide"></label>
+            <select name="select-name" onchange="location.href=this.value" id="select" class="falily-lnk" style="position: absolute; width: 197px; height: 33px; font-size: 11px;left: 0; top: 0; float: right;">
+              <option selected>FAMILY SITE</option>
+              <option value="#">선택</option>
+              <option value="https://www.iksan.go.kr/index.iksan?menuCd=DOM_000002017000000000">익산시</a></option>
+              <option value="https://www.wanju.go.kr/index.wanju">완주군</a></option>
+              <option value="https://www.sunchang.go.kr/index.sunchang">순창군</a></option>
+              <option value="https://www.buan.go.kr/index.buan">부안군</a></option>
+              <option value="https://www.muju.go.kr/intro.jsp">무주군</a></option>
+              <option value="https://www.gimje.go.kr/index.gimje?tab=01">김제시</a></option>
+              <option value="https://www.gunsan.go.kr/">군산시</a></option>
+              <option value="https://www.gochang.go.kr/index.gochang#">고창군</a></option>
+              <option value="https://www.namwon.go.kr/index.do?contentsSid=5876">남원시</a></option>
+              <option value="https://tour.jb.go.kr/index.do">전라북도토탈관광</a></option>
+              <option value="http://www.tourkorea.org/index.htm">전라북도관광협회</a></option>
+              <option value="https://www.jeonbuk.go.kr/index.jeonbuk">전라북도</a></option>
+              <option value="http://jbtourpass.kr/">전북투어패스</a></option>
+              <option value="https://www.iskytour.com/main">스카이항공</a></option>
+              <option value="https://www.nbtour.co.kr/">남북여행</a></option>
+              <option value="https://www.ktx7788.co.kr/">해밀여행사</a></option>
+              <option value="https://www.tour08.co.kr/">여행공방</a></option>
+              <option value="https://www.jinan.go.kr/index.jinan">진안군</a></option>
+            </select>
+            <button class="go-btn">GO</button>
+          </div>
+        </div>
+      </div>
+    
+    <section class="footer-low">
+        <div class="logo-low">
+            <img src="/image/logo2.png" alt="jbtour">
+            <div class="footer-low-contents">
+                <p>전라북도 전주시 덕진구 정언신로 95 경희프라자건물 7층</p>
+                <span>
+                    TEL.&nbsp;
+                    063-287-6292
+                </span>
+                <span>
+                    FAX.&nbsp;
+                    063-288-6294
+                </span>
+                <span>
+                    대표이사 :&nbsp;
+                    조오익
+                </span>
+                <br>
+                <span>
+                    사업자등록번호 :&nbsp;
+                    418-82-04300
+                </span>
+                <span>
+                    통신판매업신고번호 :&nbsp;
+                    제2017-전주덕진-0234호
+                </span>
+                <br>
+                <p>COPTRIGHT &nbsp;&nbsp; Jeollabuk-do Tourism Assiciation RIGHT RESERVED
+                </p>
+            </div>
+        </div>
+        <div class="footer-about-low">
+            <h4>전화문의</h4>
+            <h3>063-252-2988</h3>
+            평일 09:00 - 18:00 (토/일/공휴일 휴무)
+        </div>
+    </section>
+    
+</footer>
+</html>
+  <div class="container">
+    
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
